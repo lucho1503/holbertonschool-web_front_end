@@ -1,0 +1,14 @@
+/* assigns margin to the body tags */
+
+@mixin m-lr-1 ($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+}
+
+body {
+    @include m-lr-1(10px, 10px)
+}
+
+div {
+    @include m-lr-1(15px, 15px)
+}

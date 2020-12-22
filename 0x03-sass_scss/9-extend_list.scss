@@ -1,0 +1,19 @@
+/* assings the font size all tags */
+
+$body-fs: 12px;
+$green: #00FF00;
+$red: #FF0000;
+
+.info {
+    font-size: $body-fs;
+}
+
+.success {
+    @extend .info;
+    color: $green;
+}
+
+.warning {
+    @extend .info;
+    color: $red;
+}

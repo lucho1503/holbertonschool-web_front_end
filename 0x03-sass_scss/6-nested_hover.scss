@@ -1,0 +1,11 @@
+/* assings the color to the button tags */
+
+$button-color: #FF0000;
+$button-hover: #00FF00;
+
+button {
+    color: $button-color;
+    &:hover {
+        color: $button-hover;
+    }
+}

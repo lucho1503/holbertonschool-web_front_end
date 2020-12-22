@@ -1,0 +1,7 @@
+/* creates a H* tags */
+
+@for $h from 1 to 6 {
+    h#{$h} {
+        font-size: #{$h}px;
+    }
+}

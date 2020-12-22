@@ -1,0 +1,11 @@
+/* assigns the color the body tags */
+
+$grey: #3D3D3D;
+$red: #FF0000;
+
+body {
+    color: $grey;
+    > .red {
+        color: $red;
+    }
+}

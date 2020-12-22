@@ -1,0 +1,15 @@
+/* assigns the font size to the body tags */
+
+$body-fs: 14px;
+$h1-fs: 16px;
+$h1-small-fs: 12px;
+
+body {
+    font-size: $body-fs;
+    h1 {
+        font-size: $h1-fs;
+    }
+    h1.smaller {
+        font-size: $h1-small-fs;
+    }
+}

@@ -1,0 +1,17 @@
+/* assings the text color to HTML tags */
+
+$grey-color: #3D3D3D;
+$cgrey-color: #6D6D6D;
+
+body {
+    color: $grey-color;
+    background-color: $cgrey-color;
+}
+
+p {
+    color: $grey-color;
+}
+
+h2 {
+    background-color: $cgrey-color;
+}

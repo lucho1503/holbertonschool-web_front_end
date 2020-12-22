@@ -1,0 +1,12 @@
+/* assigns margin and padding to body and p tags */
+
+$mar-0: 0px;
+$mar-10: 10px;
+
+body {
+    margin: $mar-0;
+    padding: $mar-0;
+    p {
+        margin: $mar-10;
+    }
+}
