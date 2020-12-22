@@ -1,0 +1,7 @@
+/* creates a classes with differents widths */
+
+@for $col from 1 to 5 {
+    .col-#{$col} {
+        width: (100% / $col);
+    }
+}
